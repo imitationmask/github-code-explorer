@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE / 本地工具数据
+.codebuddy/
+
+# 环境变量模板（.env* 已忽略，但模板应提交）
+!.env.example
